@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HenziFinish</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge" />-->
+</head>
+<body  >
+<h1 class="title">Hanzi Writer</h1>
+<div class="char-form">
+    <label>
+        Character
+        <input type="text" class="js-char char-input" size="1" maxlength="1" value="我"  id="character" />
+    </label>
+    <button id="update" onclick="update()" >Update</button>
+
+</div>
+<div class="actions" >
+    <button onclick="guizChar()">Show/hide</button>
+    <button onclick="Outline()">Outline on/off</button>
+    <button onclick="doAnimation()">Animate</button>
+    <button>Quiz yourself</button>
+
+</div>
+
+<div id="target" >
+
+</div>
+<script src="script1.js"></script>
+</body>
+
+</html>

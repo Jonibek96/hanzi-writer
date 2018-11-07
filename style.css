@@ -1,0 +1,107 @@
+
+body {
+    background: #f4f0ea;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+body {
+    padding-bottom: 80px;
+}
+* {
+    box-sizing: border-box;
+}
+input, button{
+    outline: none;
+}
+button, #target, .title {
+    box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+}
+
+button, #target {
+    text-shadow: 0 1px 1px white;
+}
+
+.title {
+    color: white;
+    background: linear-gradient(to bottom, #333, #222);
+    padding: 15px 0;
+    margin: 0 0 30px;
+    text-shadow: 0 0 15px #4B89DB;
+    text-align: center;
+}
+
+#target {
+    background: white;
+    clear: both;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+#target1{
+
+}
+
+
+.char-form {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.char-form button {
+    padding: 8px 5px;
+    line-height: 14px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.char-input {
+    font-size: 16px;
+    padding: 5px;
+    width: 33px;
+    text-align: center;
+    margin-right: 5px;
+}
+.char-input[type=text]:focus{
+    width: 50px;
+}
+.actions {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.actions button {
+    display: block;
+    width: 97px;
+    float: left;
+    margin-right: 4px;
+    margin-bottom: 4px;
+
+}
+.actions button:last-child {
+    margin-right: 0;
+}
+
+button {
+    background: none;
+    border: 1px solid #444;
+    color: #444;
+    cursor: pointer;
+    transition: all 300ms;
+    border-radius: 3px;
+}
+
+button:hover {
+    color: #1e6cd2;
+    border: 1px solid #1e6cd2;
+    box-shadow: none;
+}
+#update{
+    background: #222222;
+    color: white;
+}
+
